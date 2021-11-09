@@ -24,5 +24,6 @@ int p_percent(va_list arg);
 int p_int(va_list arg);
 int _putchar(char c);
 int pick_function(const char s, va_list ap);
+int _printf(const char *format, ...);
 
 #endif
