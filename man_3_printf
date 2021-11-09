@@ -1,0 +1,39 @@
+./"This is the man page for this printf
+.TH vim man-3 "9-11-2021"
+.SH name 
+printf
+.SH DESCRIPTION
+_printf is a diluted version of the original printf  to practice the skills aquired during the first 2 months at holberton school
+.SH Synopsis
+ printf FORMAT [ARGUMENT]...
+printf OPTION
+
+.SH DESCRIPTION
+.B _printf
+- The printf() function sends a formatted string to the standard output.This string can display formatted variables and special control characters.
+
+.SH Format
+.TP
+.BR c
+- This requires an argument of type int and prints it as a character which normally has a value between 0 to 255.
+
+.TP
+.BR s
+- This format specifier is implemented for representing strings. This is used in printf() function for printing a string stored in the character array variable. The const char * argument is expected to be a pointer to an array of character type (pointer to a string).
+
+.TP
+.BR b
+- The int argument is converted to a binary.
+
+.TP
+.BR d, i
+- The int argument is converted to signed decimal.
+
+
+.SH Example:
+To use the _printf function you simply need to compile all files .c including the header holberton.h with a main function.
+.SH BUGS 
+No known bugs
+.SH Authors 
+Mouhamed El Hakim @MOUHAMEDelHakim
+Mouhamed Rafed Riahi @rafed01
