@@ -14,6 +14,7 @@ int pick_function(const char s, va_list ap)
 		{'%', p_percent},
 		{'d', p_int},
 		{'i', p_int},
+		{'b', p_binary},
 
 	};
 	while (ch[i].c != 0)
